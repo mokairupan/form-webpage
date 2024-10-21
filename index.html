@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-div">
+        <div class="h1">
+        <h1>Kiru.kirupan's Web page</h1>
+        </div>
+        <form id="signup">
+            <div class="form-field">
+                <label>Your name:</label>
+                <div class="name">
+                    <input type="text" placeholder="First name" name="fname">
+                    <input type="text" placeholder="Last name" name="sname">
+                </div>
+                <label>Date of Birth:</label>
+                <div class="birth">
+                    <div class="selection">
+                        <label>Date:</label>
+                        <select name="day">
+                        <option value="">chose..</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        </select>
+                    </div>
+                    <div class="selection">
+                        <label>Month:</label>
+                        <select name="month">
+                        <option value="">chose..</option>
+                        <option value="jan">january</option>
+                        <option value="feb">february</option>
+                        <option value="mar">march</option>
+                        <option value="apr">april</option>
+                        <option value="may">may</option>
+                        <option value="jun">june</option>
+                        </select>
+                    </div>
+                    <div class="selection">
+                        <label>Year:</label>
+                        <select name="year">
+                        <option value="">chose..</option>
+                        <option value="1998">1998</option>
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                        <option value="2004">2004</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="user-input">
+                    <input type="email" placeholder="Email" name="mail">
+                </div>
+                <div class="user-input">
+                        <input type="number" placeholder="Tel-number" name="mobile">
+                </div>
+                <div class="user-input">
+                    <input type="password" placeholder="Password" name="password">
+                </div>
+                <div class="user-input">
+                    <input type="password" placeholder="Re-Password" name="Re_password">
+                </div>
+                <div class="user-input gender-width">
+                    <label>Gender:</label>
+                    <div class="gender">
+                        <div class="birth">
+                            <div class="selection">
+                                <label>Female</label>
+                                <input type="radio" name="gender">
+                            </div>
+                            <div class="selection">
+                                <label>Male</label>
+                                <input type="radio" name="gender">
+                            </div>
+                            <div class="selection">
+                                <label  for="gender">Costom</label>
+                                <input type="radio" name="gender">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn" id="submit">
+                   <button>sign up</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js" integrity="sha512-KFHXdr2oObHKI9w4Hv1XPKc898mE4kgYx58oqsc/JqqdLMDI4YjOLzom+EMlW8HFUd0QfjfAvxSL6sEq/a42fQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+</html>
